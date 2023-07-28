@@ -32,7 +32,7 @@
     "clean": "rm -rf ./dist/ && rm -rf ./node_modules/.cache/",
     "lint:fix": "eslint . --fix",
     "lint": "eslint .",
-    "prepare": "husky install",
+    "prepare": "npx husky install",
     "pretty:fix": "prettier --write .",
     "pretty": "prettier --check .",
     "test:functional:strings": "./test-functional/test-strings.js",
