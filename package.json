@@ -9,8 +9,11 @@
   "main": "./dist/postal-address.node.js",
   "exports": {
     ".": {
-      "browser": "./dist/postal-address.js",
-      "require": "./dist/postal-address.node.js"
+      "types": "./dist/index.d.ts",
+      "browser": {
+        "default": "./dist/postal-address.js"
+      },
+      "default": "./dist/postal-address.node.js"
     },
     "./strings": {
       "require": "./dist/postal-address.strings.node.js"
